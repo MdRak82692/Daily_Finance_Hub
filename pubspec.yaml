@@ -1,0 +1,63 @@
+name: daily_finance_hub
+description: "Daily Finance Hub"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  provider: ^6.0.3
+  mongo_dart: ^0.10.3
+  mailer: ^6.1.2
+  intl: ^0.17.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/icon/logo.png 
+
+  fonts:
+    - family: RobotoCondensed
+      fonts: 
+        - asset: assets/fonts/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoCondensed-BoldItalic.ttf
+        - asset: assets/fonts/RobotoCondensed-Italic.ttf
+        - asset: assets/fonts/RobotoCondensed-Regular.ttf
+
+    - family: BebasNeue
+      fonts: 
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+          weight: 700
+
+    - family: Merriweather
+      fonts: 
+        - asset: assets/fonts/Merriweather-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Merriweather-BoldItalic.ttf
+        - asset: assets/fonts/Merriweather-Italic.ttf
+        - asset: assets/fonts/Merriweather-Regular.ttf
+
+    - family: PlayfairDisplay
+      fonts: 
+        - asset: assets/fonts/PlayfairDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/PlayfairDisplay-BoldItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Italic.ttf
+        - asset: assets/fonts/PlayfairDisplay-Regular.ttf           
